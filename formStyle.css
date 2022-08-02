@@ -1,0 +1,22 @@
+
+.fancybox{
+    margin: auto;
+    height: 70%;
+    width: 40%;
+    border: 3px solid #db93b1;
+    padding: 10px;
+    background-color: #f5d1e6;
+  }
+.dashedBox{
+    width: 30%;
+}
+    
+
+#sty{
+    color: #74505f;
+    
+}
+
+td {
+    text-align: right;
+  }

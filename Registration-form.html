@@ -1,0 +1,109 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="tabs-style.css">
+        <link rel="stylesheet" href="formStyle.css">
+      </head>
+    <body>
+        <span style="align-self: auto;">
+            <style>
+            .right{
+                float: right;
+              }
+            </style>
+            <img src="ITI_logo.png" class="right" width="170px" height="100"/>
+        </span>
+        <div class="tab" class="tab button">
+            <button class="tablinks" onclick="openCity(event, 'Home')"><a href="index.html">Home</a></button>
+            <button class="tablinks" onclick="openCity(event, 'Road Map')"><a href="roadMap.html">Road Map</a></button>
+            <button class="tablinks" onclick="openCity(event, 'Registration Form')">
+                <a href="Registration-form.html">Registration Form</a></button>
+            <button class="tablinks" onclick="openCity(event, 'Contact')"><a href="HTTPS://WWW.ITI.GOV.EG">Contact</a></button>
+          </div>
+       
+        <div class="fancybox">
+            <h3><span id="sty">Register-Create Account</span></h3>
+            <div style="border-style:dashed; border-width: 1px; padding:2px">
+                Fields marked with
+                <span style="color:red">*</span> are compulsory fields
+            </div>
+                <table>
+                    <form>
+                    <tr>
+                        <td><span style="color: red;">*</span>Your Name</td>
+                        <td><input type="text" id="fname" name="fname" size="40"></td>
+                    </tr>
+
+                    <tr>    
+                        <td><span style="color: red;">*</span> E-Mail</td>
+                        <td><input type="text" id="e-mail" name="e-mail" size="40"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Alternative E-Mail</td>
+                        <td><input type="text" id="lname" name="lname" size="40"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Your Phone</td>
+                        <td style="text-align: left;"><input type="text" id="yphone" name="yphone" size="3px">
+                            <input type="text" id="yphone" name="yphone" size="5px">
+                            <input type="text" id="yphone" name="yphone" size="21px"></td>
+                    </tr>    
+
+                    <tr>
+                        <td><span style="color: red;">*</span>Your Postal Adress</td>
+                        <td><input type="text" id="ypaddress" name="ypadress" size="40" style="height: 100px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td><span style="color: red;">*</span>Your Country</td>
+                        <td><input list="countries" name="Country" size="40">
+                            <datalist id="countries">
+                              <option value="Egypt">
+                              <option value="France">
+                              <option value="England">
+                              <option value="Palestine">
+                              <option value="United States">
+                            </datalist></td>
+                    </tr>    
+                    
+                    <tr>
+                        <td><span style="color: red;">*</span>Password</td>
+                        <td><input type="password" id="Password" name="Password" size="40"></td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><span style="color: red;">*</span>Re-Enter Password</td>
+                        <td><input type="password" id="rePassword" name="rePassword" size="40"></td></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td style="text-align: left;"><input type="checkbox" id="Password" name="Password">I accept the <a href="https://apple.com">terms of use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Continue >>"><input type="reset" value="Reset"></td>
+
+                        
+                    </form>
+                 </table>
+        
+        
+        </div>
+
+
+        
+        <center>
+        <a href="#topPage">Top</a>
+        </center>
+
+        <hr>
+        <center>
+            <font color="19456b">
+                <p><b>Copyright 2022 by Mohamed Elamir &reg;. All Rights Reserved.</b></p>
+            </font>
+        </center>
+    </body>
+</html>
